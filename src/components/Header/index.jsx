@@ -1,9 +1,11 @@
 import Logo from "../../assets/Logo.svg";
 
 export const Header = () => {
-    return(
-        <header>
+   return (
+      <header>
+         <div className="container">
             <img src={Logo} alt="Logo Food App" />
-        </header>
-    )
-}
+         </div>
+      </header>
+   );
+};
